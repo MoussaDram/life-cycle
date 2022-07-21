@@ -1,24 +1,20 @@
-import {Component} from 'react';
+import ClassState from './components/ClassState';
 import './App.css';
-import Myref from './Modal';
-
-
-
-class App extends Component {
+import FunctionState from './components/FunctionState';
 
 
 
 
-
-  render(){
-
+function App () {
 
   return (
     <div className="App">
-     <Myref/>
+     <ClassState/>
+     <hr/>
+     <FunctionState/>
     </div>
   );
 }
-}
+
 
 export default App;
